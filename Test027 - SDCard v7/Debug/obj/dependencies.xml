@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\Test027 - SDCard v7\third_party\fatfs\src /I..\..\..\workspace\Test027 - SDCard v7\cmsis /I..\..\..\workspace\Test027 - SDCard v7\third_party\fatfs /I..\..\..\workspace\Test027 - SDCard v7\third_party /I..\..\..\workspace /I..\..\..\workspace\Test027 - SDCard v7\inc /I..\..\..\workspace\Test027 - SDCard v7 /I..\..\..\workspace\Test027 - SDCard v7\datalogger /I..\..\..\workspace\Test027 - SDCard v7\driverlib">
+      <source file="..\..\..\driverlib\cpu.c" lastModified="154343bce3f">
+         <include file="..\..\..\driverlib\cpu.h"/>
+      </source>
+      <source file="..\..\..\driverlib\epi.c" lastModified="154343bd233">
+         <include file="..\..\..\inc\hw_epi.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\epi.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_emac.h" lastModified="154343bcd94">
+      </source>
+      <source file="..\..\..\driverlib\flash.h" lastModified="154343bca66">
+      </source>
+      <source file="..\..\..\driverlib\interrupt.h" lastModified="154343bca6e">
+      </source>
+      <source file="..\..\..\driverlib\mpu.h" lastModified="154343bca71">
+      </source>
+      <source file="..\..\..\driverlib\interrupt.c" lastModified="154343bd23d">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\cpu.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\driverlib\flash.c" lastModified="154343bd235">
+         <include file="..\..\..\inc\hw_flash.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\flash.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\driverlib\mpu.c" lastModified="154343bd240">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\mpu.h"/>
+      </source>
+      <source file="..\..\..\driverlib\aes.h" lastModified="154343bca54">
+      </source>
+      <source file="..\..\..\inc\hw_aes.h" lastModified="154343bcd90">
+      </source>
+      <source file="..\..\..\driverlib\timer.h" lastModified="154343bca86">
+      </source>
+      <source file="..\..\..\driverlib\aes.c" lastModified="154343bd60b">
+         <include file="..\..\..\inc\hw_aes.h"/>
+         <include file="..\..\..\inc\hw_ccm.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\aes.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_watchdog.h" lastModified="154343bcda3">
+      </source>
+      <source file="..\..\..\driverlib\timer.c" lastModified="154343bd256">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_timer.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\timer.h"/>
+      </source>
+      <source file="..\..\..\third_party\fatfs\src\ffconf.h" lastModified="154ed90f0d1">
+      </source>
+      <source file="..\..\..\inc\hw_memmap.h" lastModified="154343bcd99">
+      </source>
+      <source file="..\..\..\driverlib\systick.h" lastModified="154343bca85">
+      </source>
+      <source file="..\..\..\driverlib\sw_crc.h" lastModified="154343bca80">
+      </source>
+      <source file="..\..\..\driverlib\systick.c" lastModified="154343bd254">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\systick.h"/>
+      </source>
+      <source file="..\..\..\driverlib\sw_crc.c" lastModified="154343bce68">
+         <include file="..\..\..\driverlib\sw_crc.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_comp.h" lastModified="154343bcd92">
+      </source>
+      <source file="..\..\..\driverlib\emac.h" lastModified="154343bca62">
+      </source>
+      <source file="..\..\..\driverlib\eeprom.h" lastModified="154343bca5f">
+      </source>
+      <source file="..\..\..\driverlib\watchdog.h" lastModified="154343bca8d">
+      </source>
+      <source file="..\..\..\driverlib\emac.c" lastModified="154343bd231">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_emac.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\emac.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\sw_crc.h"/>
+      </source>
+      <source file="..\..\..\driverlib\eeprom.c" lastModified="154343bd22e">
+         <include file="..\..\..\inc\hw_eeprom.h"/>
+         <include file="..\..\..\inc\hw_flash.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\flash.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\eeprom.h"/>
+      </source>
+      <source file="..\..\..\driverlib\debug.h" lastModified="154343bca59">
+      </source>
+      <source file="..\..\..\driverlib\watchdog.c" lastModified="154343bd25c">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_watchdog.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\watchdog.h"/>
+      </source>
+      <source file="..\..\..\driverlib\usb.h" lastModified="154343bca8c">
+      </source>
+      <source file="..\..\..\inc\hw_usb.h" lastModified="154343bcda2">
+      </source>
+      <source file="..\..\..\driverlib\usb.c" lastModified="154343bd25b">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_usb.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\udma.h"/>
+         <include file="..\..\..\driverlib\usb.h"/>
+      </source>
+      <source file="..\..\..\datalogger\datalogger.h" lastModified="155cc6dcdd9">
+      </source>
+      <source file="..\..\..\third_party\fatfs\src\ff.h" lastModified="154ed986eb9">
+         <include file="..\..\..\third_party\fatfs\src\integer.h"/>
+         <include file="..\..\..\third_party\fatfs\src\ffconf.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_onewire.h" lastModified="154343bcd9b">
+      </source>
+      <source file="..\..\..\datalogger\datalogger.c" lastModified="155cc70afed">
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_i2c.h"/>
+         <include file="..\..\..\inc\hw_gpio.h"/>
+         <include file="..\..\..\inc\hw_ssi.h"/>
+         <include file="..\..\..\driverlib\fpu.h"/>
+         <include file="..\..\..\driverlib\rom.h"/>
+         <include file="..\..\..\driverlib\pin_map.h"/>
+         <include file="..\..\..\driverlib\gpio.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\pwm.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\uart.h"/>
+         <include file="..\..\..\driverlib\systick.h"/>
+         <include file="..\..\..\driverlib\timer.h"/>
+         <include file="..\..\..\driverlib\hibernate.h"/>
+         <include file="..\..\..\driverlib\i2c.h"/>
+         <include file="..\..\..\driverlib\ssi.h"/>
+         <include file="..\..\..\datalogger\datalogger.h"/>
+         <include file="..\..\..\datalogger\delay.h"/>
+         <include file="..\..\..\third_party\fatfs\src\ff.h"/>
+         <include file="..\..\..\third_party\fatfs\src\diskio.h"/>
+      </source>
+      <source file="..\..\..\third_party\fatfs\src\ff.c" lastModified="1547295f48d">
+         <include file="..\..\..\third_party\fatfs\src\ff.h"/>
+         <include file="..\..\..\third_party\fatfs\src\diskio.h"/>
+      </source>
+      <source file="..\..\..\driverlib\shamd5.h" lastModified="154343bca7e">
+      </source>
+      <source file="..\..\..\driverlib\rom.h" lastModified="154343bca7a">
+      </source>
+      <source file="..\..\..\driverlib\hibernate.h" lastModified="154343bca6b">
+      </source>
+      <source file="..\..\..\inc\hw_eeprom.h" lastModified="154343bcd93">
+      </source>
+      <source file="..\..\..\driverlib\shamd5.c" lastModified="154343bd24d">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_shamd5.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\shamd5.h"/>
+      </source>
+      <source file="..\..\..\driverlib\hibernate.c" lastModified="154343bd622">
+         <include file="..\..\..\inc\hw_hibernate.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\hibernate.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+      </source>
+      <source file="..\..\..\driverlib\fpu.h" lastModified="154343bca67">
+      </source>
+      <source file="..\..\..\driverlib\ssi.h" lastModified="154343bca7f">
+      </source>
+      <source file="..\..\..\inc\hw_ssi.h" lastModified="154343bcd9d">
+      </source>
+      <source file="..\..\..\driverlib\qei.h" lastModified="154343bca78">
+      </source>
+      <source file="..\..\..\inc\hw_qei.h" lastModified="154343bcd9c">
+      </source>
+      <source file="..\..\..\driverlib\fpu.c" lastModified="154343bce4f">
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\fpu.h"/>
+      </source>
+      <source file="..\..\..\driverlib\comp.h" lastModified="154343bca57">
+      </source>
+      <source file="..\..\..\inc\hw_types.h" lastModified="154343bcda0">
+      </source>
+      <source file="..\..\..\inc\hw_ints.h" lastModified="154343bcd98">
+      </source>
+      <source file="..\..\..\driverlib\ssi.c" lastModified="154343bd24e">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_ssi.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\ssi.h"/>
+      </source>
+      <source file="..\..\..\driverlib\qei.c" lastModified="154343bd247">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_qei.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\qei.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_flash.h" lastModified="154343bcd96">
+      </source>
+      <source file="..\..\..\driverlib\comp.c" lastModified="154343bd226">
+         <include file="..\..\..\inc\hw_comp.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\comp.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\datalogger\delay.h" lastModified="135c0f49970">
+      </source>
+      <source file="..\..\..\driverlib\lcd.h" lastModified="154343bca6f">
+      </source>
+      <source file="..\..\..\inc\hw_lcd.h" lastModified="154343bcd99">
+      </source>
+      <source file="..\..\..\datalogger\delay.c" lastModified="1543b4f1ee9">
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\driverlib\pin_map.h"/>
+         <include file="..\..\..\driverlib\gpio.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\pwm.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\uart.h"/>
+         <include file="..\..\..\driverlib\systick.h"/>
+         <include file="..\..\..\driverlib\timer.h"/>
+         <include file="..\..\..\datalogger\datalogger.h"/>
+         <include file="..\..\..\datalogger\delay.h"/>
+      </source>
+      <source file="..\..\..\driverlib\lcd.c" lastModified="154343bd627">
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_lcd.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\lcd.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_shamd5.h" lastModified="154343bcd9c">
+      </source>
+      <source file="..\..\..\third_party\fatfs\src\diskio.h" lastModified="154343bce43">
+         <include file="..\..\..\third_party\fatfs\src\integer.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_timer.h" lastModified="154343bcd9f">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="155bd3a73ad">
+      </source>
+      <source file="..\..\..\driverlib\des.h" lastModified="154343bca5b">
+      </source>
+      <source file="..\..\..\inc\hw_des.h" lastModified="154343bcd92">
+      </source>
+      <source file="..\..\..\third_party\fatfs\src\integer.h" lastModified="154343bd616">
+      </source>
+      <source file="..\..\..\inc\hw_gpio.h" lastModified="154343bcd96">
+      </source>
+      <source file="..\..\..\driverlib\des.c" lastModified="154343bd22a">
+         <include file="..\..\..\inc\hw_des.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\des.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_udma.h" lastModified="154343bcda1">
+      </source>
+      <source file="..\..\..\driverlib\crc.h" lastModified="154343bca59">
+      </source>
+      <source file="..\..\..\driverlib\adc.h" lastModified="154343bca52">
+      </source>
+      <source file="..\..\..\inc\hw_adc.h" lastModified="154343bcd8f">
+      </source>
+      <source file="..\..\..\third_party\fatfs\port\mmc-dk-tm4c123g.c" lastModified="15472445d3b">
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\gpio.h"/>
+         <include file="..\..\..\driverlib\rom.h"/>
+         <include file="..\..\..\driverlib\rom_map.h"/>
+         <include file="..\..\..\driverlib\ssi.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\pin_map.h"/>
+         <include file="..\..\..\third_party\fatfs\src\diskio.h"/>
+      </source>
+      <source file="..\..\..\driverlib\crc.c" lastModified="154343bd228">
+         <include file="..\..\..\inc\hw_ccm.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\crc.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+      </source>
+      <source file="..\..\..\driverlib\adc.c" lastModified="154343bd222">
+         <include file="..\..\..\inc\hw_adc.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\driverlib\adc.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\driverlib\onewire.h" lastModified="154343bca72">
+      </source>
+      <source file="..\..\..\inc\hw_uart.h" lastModified="154343bcda0">
+      </source>
+      <source file="..\..\..\driverlib\onewire.c" lastModified="154343bd62a">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_onewire.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\onewire.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+      </source>
+      <source file="..\..\..\driverlib\sysctl.h" lastModified="154343bca82">
+      </source>
+      <source file="..\..\..\driverlib\sysctl.c" lastModified="154343bd252">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_flash.h"/>
+         <include file="..\..\..\driverlib\cpu.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_sysctl.h" lastModified="154343bcd9e">
+      </source>
+      <source file="..\..\..\driverlib\sysexc.c" lastModified="154343bd253">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_sysexc.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\inc\hw_sysexc.h" lastModified="154343bcd9f">
+      </source>
+      <source file="..\..\..\driverlib\i2c.h" lastModified="154343bca6c">
+      </source>
+      <source file="..\..\..\inc\hw_i2c.h" lastModified="154343bcd97">
+      </source>
+      <source file="..\..\..\driverlib\gpio.h" lastModified="154343bca69">
+      </source>
+      <source file="..\..\..\driverlib\can.h" lastModified="154343bca55">
+      </source>
+      <source file="..\..\..\inc\hw_can.h" lastModified="154343bcd91">
+      </source>
+      <source file="..\..\..\driverlib\udma.h" lastModified="154343bca89">
+      </source>
+      <source file="..\..\..\driverlib\i2c.c" lastModified="154343bd23c">
+         <include file="..\..\..\inc\hw_i2c.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\i2c.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\driverlib\gpio.c" lastModified="154343bd238">
+         <include file="..\..\..\inc\hw_gpio.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\gpio.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\driverlib\can.c" lastModified="154343bd225">
+         <include file="..\..\..\inc\hw_can.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\can.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+      </source>
+      <source file="..\..\..\driverlib\udma.c" lastModified="154343bd259">
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_udma.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\udma.h"/>
+      </source>
+      <source file="..\..\..\driverlib\pin_map.h" lastModified="154343bca75">
+      </source>
+      <source file="..\..\..\driverlib\rom_map.h" lastModified="154343bca7c">
+      </source>
+      <source file="..\..\..\inc\hw_ccm.h" lastModified="154343bcd91">
+      </source>
+      <source file="..\..\..\main.c" lastModified="156327cd347">
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_i2c.h"/>
+         <include file="..\..\..\inc\hw_gpio.h"/>
+         <include file="..\..\..\driverlib\fpu.h"/>
+         <include file="..\..\..\driverlib\rom.h"/>
+         <include file="..\..\..\driverlib\pin_map.h"/>
+         <include file="..\..\..\driverlib\gpio.h"/>
+         <include file="..\..\..\driverlib\sysctl.h"/>
+         <include file="..\..\..\driverlib\pwm.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\uart.h"/>
+         <include file="..\..\..\driverlib\systick.h"/>
+         <include file="..\..\..\driverlib\timer.h"/>
+         <include file="..\..\..\driverlib\hibernate.h"/>
+         <include file="..\..\..\driverlib\i2c.h"/>
+         <include file="..\..\..\datalogger\datalogger.h"/>
+         <include file="..\..\..\datalogger\delay.h"/>
+         <include file="..\..\..\third_party\fatfs\src\ff.h"/>
+         <include file="..\..\..\third_party\fatfs\src\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsisboot\startup\startup_Cortex_M4.c" lastModified="155bd78d6f4">
+         <include file="..\..\..\inc\hw_nvic.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+      </source>
+      <source file="..\..\..\driverlib\uart.h" lastModified="154343bca88">
+      </source>
+      <source file="..\..\..\inc\hw_hibernate.h" lastModified="154343bcd97">
+      </source>
+      <source file="..\..\..\inc\hw_nvic.h" lastModified="154343bcd9a">
+      </source>
+      <source file="..\..\..\driverlib\uart.c" lastModified="154343bd257">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\inc\hw_uart.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\uart.h"/>
+      </source>
+      <source file="..\..\..\driverlib\pwm.h" lastModified="154343bca76">
+      </source>
+      <source file="..\..\..\inc\hw_pwm.h" lastModified="154343bcd9b">
+      </source>
+      <source file="..\..\..\driverlib\cpu.h" lastModified="154343bca58">
+      </source>
+      <source file="..\..\..\driverlib\epi.h" lastModified="154343bca64">
+      </source>
+      <source file="..\..\..\inc\hw_epi.h" lastModified="154343bcd95">
+      </source>
+      <source file="..\..\..\driverlib\pwm.c" lastModified="154343bd245">
+         <include file="..\..\..\inc\hw_ints.h"/>
+         <include file="..\..\..\inc\hw_memmap.h"/>
+         <include file="..\..\..\inc\hw_pwm.h"/>
+         <include file="..\..\..\inc\hw_sysctl.h"/>
+         <include file="..\..\..\inc\hw_types.h"/>
+         <include file="..\..\..\driverlib\debug.h"/>
+         <include file="..\..\..\driverlib\interrupt.h"/>
+         <include file="..\..\..\driverlib\pwm.h"/>
+      </source>
+   </includePath>
+</dependencies>
